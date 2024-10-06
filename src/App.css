@@ -1,0 +1,58 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    gap: .5rem;
+    padding: 1rem;
+    width: 30rem;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.quiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.quiz-setup{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin: auto;
+    gap: 2rem;
+}
+
+form input,select{
+    width: 20rem;
+    margin: auto;
+    border: none;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 10px;
+    height: 2rem;
+    padding-left: .5rem;
+}
+
+form button{
+    width: 20rem;
+    margin: auto;
+    border: none;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 10px;
+    height: 2.65rem;
+    padding-left: .5rem;
+    background-color: red;
+    color: wheat;
+    font-size: 1rem;
+    font-weight: bolder;
+
+}
